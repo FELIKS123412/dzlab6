@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+п»ї#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <locale.h>
 #include <math.h>
@@ -7,17 +7,17 @@ int main()
 {
 	setlocale(LC_CTYPE, "RUS");
 	float x, y;
-	printf("Введите значение x:");
+	printf("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ x:");
 	scanf("%f", &x);
-	printf("Введите значение y:");
+	printf("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ y:");
 	scanf("%f", &y);
 	if (pow(x, 2) + pow(y, 2) <= 4 && y >= x && x >= 0)
 	{
-		printf("Точка %f, %f принадлежит области.", x, y);
+		printf("РўРѕС‡РєР° %f, %f РїСЂРёРЅР°РґР»РµР¶РёС‚ РѕР±Р»Р°СЃС‚Рё.", x, y);
 	}
 	else
 	{
-		printf("Точка %f, %f не принадлежит области.", x, y);
+		printf("РўРѕС‡РєР° %f, %f РЅРµ РїСЂРёРЅР°РґР»РµР¶РёС‚ РѕР±Р»Р°СЃС‚Рё.", x, y);
 	}
 
 
